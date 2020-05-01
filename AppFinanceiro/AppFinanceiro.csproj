@@ -52,6 +52,12 @@
     <Compile Include="Contas.Designer.cs">
       <DependentUpon>Contas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lancamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lancamentos.Designer.cs">
+      <DependentUpon>Lancamentos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Contas.resx">
       <DependentUpon>Contas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lancamentos.resx">
+      <DependentUpon>Lancamentos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>

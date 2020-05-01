@@ -17,6 +17,13 @@ namespace AppFinanceiro {
         private void tsmCadContas_Click(object sender, EventArgs e) {
             Form c = new Contas();
             c.Show();
+
+
+        }
+
+        private void tsmCadLancamentos_Click(object sender, EventArgs e) {
+            Form l = new Lancamentos();
+            l.Show();
         }
     }
 }

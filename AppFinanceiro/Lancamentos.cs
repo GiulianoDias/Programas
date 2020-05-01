@@ -9,16 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AppFinanceiro {
-    public partial class Login : Form {
-        public Login() {
+    public partial class Lancamentos : Form {
+        public Lancamentos() {
             InitializeComponent();
         }
-
-        private void btnEnter_Click(object sender, EventArgs e) {
-
-            Form p = new Principal();
-            p.Show();
-
-        }            
     }
 }

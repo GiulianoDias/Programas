@@ -41,7 +41,7 @@
             this.btnEnter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnter.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnEnter.Location = new System.Drawing.Point(376, 187);
+            this.btnEnter.Location = new System.Drawing.Point(446, 200);
             this.btnEnter.Name = "btnEnter";
             this.btnEnter.Size = new System.Drawing.Size(75, 31);
             this.btnEnter.TabIndex = 0;

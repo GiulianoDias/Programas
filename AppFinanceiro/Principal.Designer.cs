@@ -44,7 +44,7 @@
             this.tsmRelatorios});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(646, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(732, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -83,6 +83,7 @@
             this.tsmCadLancamentos.Name = "tsmCadLancamentos";
             this.tsmCadLancamentos.Size = new System.Drawing.Size(180, 22);
             this.tsmCadLancamentos.Text = "Lançamentos";
+            this.tsmCadLancamentos.Click += new System.EventHandler(this.tsmCadLancamentos_Click);
             // 
             // tsmRelatorios
             // 
@@ -97,13 +98,13 @@
             this.tsmRelAcumulados.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmRelAcuLancamentos});
             this.tsmRelAcumulados.Name = "tsmRelAcumulados";
-            this.tsmRelAcumulados.Size = new System.Drawing.Size(180, 22);
+            this.tsmRelAcumulados.Size = new System.Drawing.Size(141, 22);
             this.tsmRelAcumulados.Text = "Acumulados";
             // 
             // tsmRelAcuLancamentos
             // 
             this.tsmRelAcuLancamentos.Name = "tsmRelAcuLancamentos";
-            this.tsmRelAcuLancamentos.Size = new System.Drawing.Size(180, 22);
+            this.tsmRelAcuLancamentos.Size = new System.Drawing.Size(145, 22);
             this.tsmRelAcuLancamentos.Text = "Lançamentos";
             // 
             // Principal
@@ -112,12 +113,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(646, 450);
+            this.ClientSize = new System.Drawing.Size(732, 450);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Principal";
             this.Text = "Principal";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
