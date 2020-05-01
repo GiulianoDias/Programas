@@ -9,14 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AppFinanceiro {
-    public partial class Principal : Form {
-        public Principal() {
+    public partial class Contas : Form {
+        public Contas() {
             InitializeComponent();
         }
 
-        private void tsmCadContas_Click(object sender, EventArgs e) {
-            Form c = new Contas();
-            c.Show();
+        private void dgvRegistros_CellContentClick(object sender, DataGridViewCellEventArgs e) {
+
         }
     }
 }
