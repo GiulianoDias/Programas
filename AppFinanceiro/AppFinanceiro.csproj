@@ -52,6 +52,8 @@
     <Compile Include="Contas.Designer.cs">
       <DependentUpon>Contas.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormContas.cs" />
+    <Compile Include="FormLancamentos.cs" />
     <Compile Include="Lancamentos.cs">
       <SubType>Form</SubType>
     </Compile>
