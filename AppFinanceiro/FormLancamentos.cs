@@ -12,14 +12,12 @@ namespace AppFinanceiro {
     class FormLancamentos : FormContas {
 
         static List<FormLancamentos> FormLancamento = new List<FormLancamentos>();
-        static int MaxId = 0;
+        static int MaxIdL = 0;
 
-        protected int _IdL;
-        protected int _Dia;
-        protected int _Mes;
-        protected int _Ano;
-        protected int _Valor;
-        protected string _Descricao;
+        private int _IdL;
+        private DateTime _Data;
+        private double _Valor;
+        private string _Descricao;
 
         #region Acesso a Dados
 
@@ -28,10 +26,46 @@ namespace AppFinanceiro {
             get { return _IdL; }
         }
 
+        public DateTime Data {
+            set { _Data = value; }
+            get { return _Data; }
+        }
+
+        public double Valor {
+            set { _Valor = value; }
+            get { return _Valor; }
+        }
+
+        public string Descricao {
+            set { _Descricao = value; }
+            get { return _Descricao; }
+        }
 
         #endregion
 
         #region Construtores
+
+        public FormLancamentos() {
+            int _IdL = 0;
+            DateTime _Data = DateTime.Now;
+            double _Valor = 0.0;
+            string _Descricao = "";
+        }
+
+        public FormLancamentos(int id, string conta, Grupos grupo) : base(id, conta, grupo) {
+            int _IdL = IdL;
+            DateTime _Data = Data;
+            double _Valor = Valor;
+            string _Decricao = Descricao;
+            Grupos _Grupo = grupo;
+        }
+
+        public FormLancamentos(string conta, Grupos grupo) : base(conta, grupo) {
+            var _Data = Data;
+            double _Valor = Valor;
+            string _Decricao = Descricao;
+            Grupos _Grupo = grupo;
+        }
         #endregion
 
         #region Metodos
