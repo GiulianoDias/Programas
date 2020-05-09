@@ -13,5 +13,13 @@ namespace AppFinanceiro {
         public Lancamentos() {
             InitializeComponent();
         }
+
+        private void Lancamentos_Load(object sender, EventArgs e) {
+            lbxLanGrupo.DataSource = Enum.GetNames(typeof(FormContas.Grupos));
+
+            dgvLanResumo.DataSource = FormLancamentos.Consultar();
+
+
+        }
     }
 }

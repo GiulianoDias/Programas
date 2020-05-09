@@ -69,9 +69,10 @@ namespace AppFinanceiro {
         #endregion
 
         #region Metodos
+
+        public static List<FormLancamentos> Consultar() {
+            return FormLancamento;
+        }
         #endregion
-
-
-
     }
 }

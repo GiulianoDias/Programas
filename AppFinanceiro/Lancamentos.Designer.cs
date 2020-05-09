@@ -162,6 +162,7 @@
             this.Controls.Add(this.gbxLanRegistro);
             this.Name = "Lancamentos";
             this.Text = "Lançamentos";
+            this.Load += new System.EventHandler(this.Lancamentos_Load);
             this.gbxLanRegistro.ResumeLayout(false);
             this.gbxLanRegistro.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLanResumo)).EndInit();

@@ -53,13 +53,15 @@
             this.tsmArquivo.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmSair});
             this.tsmArquivo.Name = "tsmArquivo";
+            this.tsmArquivo.ShortcutKeyDisplayString = "A";
+            this.tsmArquivo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.A)));
             this.tsmArquivo.Size = new System.Drawing.Size(61, 20);
             this.tsmArquivo.Text = "&Arquivo";
             // 
             // tsmSair
             // 
             this.tsmSair.Name = "tsmSair";
-            this.tsmSair.Size = new System.Drawing.Size(93, 22);
+            this.tsmSair.Size = new System.Drawing.Size(180, 22);
             this.tsmSair.Text = "Sair";
             // 
             // tsmCadastros
@@ -68,6 +70,7 @@
             this.tsmCadContas,
             this.tsmCadLancamentos});
             this.tsmCadastros.Name = "tsmCadastros";
+            this.tsmCadastros.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.C)));
             this.tsmCadastros.Size = new System.Drawing.Size(71, 20);
             this.tsmCadastros.Text = "&Cadastros";
             // 
@@ -90,6 +93,7 @@
             this.tsmRelatorios.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmRelAcumulados});
             this.tsmRelatorios.Name = "tsmRelatorios";
+            this.tsmRelatorios.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.R)));
             this.tsmRelatorios.Size = new System.Drawing.Size(71, 20);
             this.tsmRelatorios.Text = "&Relatórios";
             // 
@@ -98,7 +102,7 @@
             this.tsmRelAcumulados.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmRelAcuLancamentos});
             this.tsmRelAcumulados.Name = "tsmRelAcumulados";
-            this.tsmRelAcumulados.Size = new System.Drawing.Size(141, 22);
+            this.tsmRelAcumulados.Size = new System.Drawing.Size(180, 22);
             this.tsmRelAcumulados.Text = "Acumulados";
             // 
             // tsmRelAcuLancamentos

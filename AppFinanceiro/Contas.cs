@@ -17,5 +17,9 @@ namespace AppFinanceiro {
         private void dgvRegistros_CellContentClick(object sender, DataGridViewCellEventArgs e) {
 
         }
+
+        private void Contas_Load(object sender, EventArgs e) {
+            cboConGrupo.DataSource = Enum.GetNames(typeof(FormContas.Grupos));
+        }
     }
 }
